@@ -1,0 +1,54 @@
+{
+  "author": "Florian Imdahl <git@ffflorian.de>",
+  "devDependencies": {
+    "@ffflorian/eslint-config": "0.8.1",
+    "@ffflorian/prettier-config": "0.1.2",
+    "@type-challenges/utils": "0.1.1",
+    "@types/node": "~16",
+    "@typescript-eslint/eslint-plugin": "4.28.5",
+    "@typescript-eslint/parser": "4.28.5",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jasmine": "4.1.2",
+    "eslint-plugin-jsdoc": "36.0.6",
+    "eslint-plugin-no-unsanitized": "3.1.5",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-sort-keys-fix": "1.1.1",
+    "eslint-plugin-typescript-sort-keys": "1.7.0",
+    "eslint-plugin-unused-imports": "1.1.2",
+    "husky": "4.3.8",
+    "lint-staged": "11.1.1",
+    "prettier": "2.3.2",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5"
+  },
+  "license": "GPL-3.0",
+  "lint-staged": {
+    "*.{json,md,yml}": [
+      "prettier --write"
+    ],
+    "spec/**/*.ts": [
+      "eslint --config .eslintrc.spec.json --fix"
+    ],
+    "src/**/*.ts": [
+      "eslint --fix"
+    ]
+  },
+  "main": "index.js",
+  "name": "@ffflorian/type-challenges",
+  "private": true,
+  "repository": "https://github.com/ffflorian/type-challenges.git",
+  "scripts": {
+    "fix": "yarn fix:other && yarn fix:ts",
+    "fix:other": "yarn prettier --write",
+    "fix:ts": "yarn lint:ts --fix && yarn lint:ts:spec --fix",
+    "lint": "yarn lint:ts && yarn lint:ts:spec && yarn lint:other",
+    "lint:other": "yarn prettier --list-different",
+    "lint:ts": "eslint --ignore-path .gitignore --ext .ts src/",
+    "test": "tsc --noEmit"
+  },
+  "version": "1.0.0"
+}
