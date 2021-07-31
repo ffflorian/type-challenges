@@ -4,8 +4,9 @@
     {
       "files": "*.ts",
       "rules": {
-        "@typescript-eslint/typedef": "off",
         "@typescript-eslint/no-unused-vars-experimental": "off",
+        "@typescript-eslint/typedef": "off",
+        "no-magic-numbers": "off",
         "unused-imports/no-unused-vars": "off"
       }
     }
