@@ -1,16 +1,16 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: '/'
     schedule:
       interval: daily
-      time: "07:00"
-      timezone: "Europe/Berlin"
+      time: '07:00'
+      timezone: 'Europe/Berlin'
     open-pull-requests-limit: 99
     assignees:
       - ffflorian
     versioning-strategy: increase
     ignore:
-      - dependency-name: "@types/node"
+      - dependency-name: '@types/node'
         versions:
-          - "> 16.x"
+          - '> 16.x'
