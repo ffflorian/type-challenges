@@ -5,8 +5,5 @@ pre-commit:
       glob: '*.{json,md,yml}'
       run: npx prettier --write {staged_files}
     eslint:
-      glob: 'src/**/*.ts'
+      glob: 'challenges/*.ts'
       run: npx eslint --fix {staged_files}
-    eslint_spec:
-      glob: 'spec/**/*.ts'
-      run: npx eslint --config .eslintrc.spec.json --fix {staged_files}

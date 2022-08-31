@@ -1,5 +1,6 @@
 import {Equal, Expect} from '@type-challenges/utils';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 type NonEmptyArray<T> = [any, ...any];
 
 type First<T extends any[]> = T extends NonEmptyArray<T> ? T[0] : never;
@@ -10,3 +11,5 @@ type cases = [
   Expect<Equal<First<[]>, never>>,
   Expect<Equal<First<[undefined]>, undefined>>
 ];
+
+export {cases};
