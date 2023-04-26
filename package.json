@@ -40,5 +40,6 @@
     "prettier": "prettier \"*.{json,md,yml}\"",
     "test": "tsc --noEmit"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "packageManager": "yarn@3.5.0"
 }
