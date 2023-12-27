@@ -9,7 +9,6 @@
     "@typescript-eslint/eslint-plugin": "6.16.0",
     "@typescript-eslint/parser": "6.16.0",
     "babel-eslint": "10.1.0",
-    "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jasmine": "4.1.3",
@@ -20,6 +19,7 @@
     "eslint-plugin-sort-keys-fix": "1.1.2",
     "eslint-plugin-typescript-sort-keys": "3.1.0",
     "eslint-plugin-unused-imports": "3.0.0",
+    "oxlint": "0.0.22",
     "prettier": "3.1.1",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
@@ -27,6 +27,7 @@
   "license": "GPL-3.0",
   "main": "index.js",
   "name": "@ffflorian/type-challenges",
+  "packageManager": "yarn@3.5.0",
   "prettier": "@ffflorian/prettier-config",
   "private": true,
   "repository": "https://github.com/ffflorian/type-challenges.git",
@@ -36,10 +37,9 @@
     "fix:ts": "yarn lint:ts --fix",
     "lint": "yarn lint:ts && yarn lint:other",
     "lint:other": "yarn prettier --list-different",
-    "lint:ts": "eslint --ignore-path .gitignore --ext .ts challenges/",
+    "lint:ts": "oxlint --ignore-path .gitignore challenges/",
     "prettier": "prettier \"*.{json,md,yml}\"",
     "test": "tsc --noEmit"
   },
-  "version": "1.0.0",
-  "packageManager": "yarn@3.5.0"
+  "version": "1.0.0"
 }
