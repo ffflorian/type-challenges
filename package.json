@@ -22,7 +22,7 @@
     "oxlint": "0.2.14",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
-    "typescript": "5.4.2"
+    "typescript": "5.4.3"
   },
   "license": "GPL-3.0",
   "main": "index.js",
