@@ -3,7 +3,7 @@
   "devDependencies": {
     "@evilmartians/lefthook": "1.6.11",
     "@ffflorian/eslint-config": "0.10.2",
-    "@ffflorian/prettier-config": "0.3.2",
+    "@ffflorian/prettier-config": "0.3.3",
     "@type-challenges/utils": "0.1.1",
     "@types/node": "~20",
     "@typescript-eslint/eslint-plugin": "7.9.0",
