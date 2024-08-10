@@ -307,7 +307,7 @@ __metadata:
     eslint-plugin-simple-import-sort: 12.1.1
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 3.2.0
-    eslint-plugin-unused-imports: 3.2.0
+    eslint-plugin-unused-imports: 4.0.1
     oxlint: 0.5.3
     prettier: 3.3.2
     ts-node: 10.9.2
@@ -1381,18 +1381,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:3.2.0":
-  version: 3.2.0
-  resolution: "eslint-plugin-unused-imports@npm:3.2.0"
+"eslint-plugin-unused-imports@npm:4.0.1":
+  version: 4.0.1
+  resolution: "eslint-plugin-unused-imports@npm:4.0.1"
   dependencies:
     eslint-rule-composer: ^0.3.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": 6 - 7
-    eslint: 8
+    "@typescript-eslint/eslint-plugin": ^8.0.0-0
+    eslint: ^9.0.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: e85ae4f3af489294ef5e0969ab904fa87f9fa7c959ca0804f30845438db4aeb0428ddad7ab06a70608e93121626799977241b442fdf126a4d0667be57390c3d6
+  checksum: 7a8232f47e34583e3c909150620b074a1553a00e8aa59bbe6e9d343f24854314028733fcb337b7efb2f4aa52fd8aa9bda0aa1b8428e0c1251bbc552c48e7b46f
   languageName: node
   linkType: hard
 
