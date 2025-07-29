@@ -27,7 +27,7 @@
   "license": "GPL-3.0",
   "main": "index.js",
   "name": "@ffflorian/type-challenges",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@4.9.2",
   "prettier": "@ffflorian/prettier-config",
   "private": true,
   "repository": "https://github.com/ffflorian/type-challenges.git",
