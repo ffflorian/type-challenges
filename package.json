@@ -2,7 +2,7 @@
   "author": "Florian Imdahl <git@ffflorian.de>",
   "devDependencies": {
     "@eslint/js": "10.0.1",
-    "@evilmartians/lefthook": "2.1.2",
+    "@evilmartians/lefthook": "2.1.4",
     "@ffflorian/eslint-config": "0.13.4",
     "@ffflorian/prettier-config": "0.6.3",
     "@type-challenges/utils": "0.1.1",
