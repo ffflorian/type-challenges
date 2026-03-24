@@ -4,8 +4,8 @@
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["ESNext"],
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
@@ -15,7 +15,8 @@
     "sourceMap": true,
     "strict": true,
     "strictFunctionTypes": true,
-    "target": "ES6"
+    "target": "es2020",
+    "types": []
   },
   "exclude": ["dist", "node_modules", "spec", "eslint.config.ts"]
 }
