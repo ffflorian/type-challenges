@@ -208,12 +208,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ffflorian/prettier-config@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@ffflorian/prettier-config@npm:0.6.3"
+"@ffflorian/prettier-config@npm:0.6.4":
+  version: 0.6.4
+  resolution: "@ffflorian/prettier-config@npm:0.6.4"
   peerDependencies:
     prettier: ">= 1.17.0"
-  checksum: 10c0/66912483efdc117fb52ff99acc99a52366f870ed9a7a9978ebf844e8ad52123e24d5f14500729a3ecb7b48b504cedefe2b615d05b09f0a19e93c986976a9e214
+  checksum: 10c0/ba4b6590b9c2c5e0fb12e4936a8be771d1eb73de8c4e75bca9abc0c878365e1150c8b0d95a64dd9ea6b580b660a9e690aaf6991ff883ffb34e2f8c93380e5065
   languageName: node
   linkType: hard
 
@@ -224,7 +224,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@evilmartians/lefthook": "npm:2.1.2"
     "@ffflorian/eslint-config": "npm:0.13.4"
-    "@ffflorian/prettier-config": "npm:0.6.3"
+    "@ffflorian/prettier-config": "npm:0.6.4"
     "@type-challenges/utils": "npm:0.1.1"
     "@types/node": "npm:~24"
     "@typescript-eslint/eslint-plugin": "npm:8.56.1"

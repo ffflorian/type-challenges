@@ -4,7 +4,7 @@
     "@eslint/js": "10.0.1",
     "@evilmartians/lefthook": "2.1.2",
     "@ffflorian/eslint-config": "0.13.4",
-    "@ffflorian/prettier-config": "0.6.3",
+    "@ffflorian/prettier-config": "0.6.4",
     "@type-challenges/utils": "0.1.1",
     "@types/node": "~24",
     "@typescript-eslint/eslint-plugin": "8.56.1",
