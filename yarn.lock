@@ -234,7 +234,7 @@ __metadata:
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-oxlint: "npm:1.50.0"
     eslint-plugin-perfectionist: "npm:5.6.0"
-    globals: "npm:17.3.0"
+    globals: "npm:17.4.0"
     jiti: "npm:2.6.1"
     oxlint: "npm:1.50.0"
     prettier: "npm:3.8.1"
@@ -2262,13 +2262,6 @@ __metadata:
   dependencies:
     is-glob: "npm:^4.0.3"
   checksum: 10c0/317034d88654730230b3f43bb7ad4f7c90257a426e872ea0bf157473ac61c99bf5d205fad8f0185f989be8d2fa6d3c7dce1645d99d545b6ea9089c39f838e7f8
-  languageName: node
-  linkType: hard
-
-"globals@npm:17.3.0":
-  version: 17.3.0
-  resolution: "globals@npm:17.3.0"
-  checksum: 10c0/7f21443ecaa60c6e9ff56d9fb6f10a9b5f9514e7f22e5392f715472bb220ce31c865ebf414a32695150e733fb3e1013e6322dbce70fddd1e066f372b8d55a4b8
   languageName: node
   linkType: hard
 
