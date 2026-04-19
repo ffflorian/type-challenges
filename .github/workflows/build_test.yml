@@ -1,4 +1,6 @@
-name: Build
+name: Build, lint, and test
+
+permissions: {}
 
 on:
   push:
@@ -7,7 +9,9 @@ on:
     branches: [main]
 
 jobs:
-  build_test_publish:
+  build_lint_test:
+    permissions:
+      contents: read
     name: Build and test
     runs-on: ubuntu-latest
     steps:
@@ -20,7 +24,7 @@ jobs:
           node-version: 24.x
           cache: yarn
 
-      - name: Build, lint and test
+      - name: Build, lint, and test
         run: |
           yarn --frozen-lockfile
           yarn lint
